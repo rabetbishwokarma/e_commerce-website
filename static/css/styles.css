@@ -1,0 +1,21 @@
+/* styles.css */
+
+/* Product image container */
+.product-image-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Product image */
+.product-image-container img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px; /* Adjust as needed to control the image height */
+}
+
+Other custom styles can be added here
+

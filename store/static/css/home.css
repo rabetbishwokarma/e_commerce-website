@@ -1,0 +1,97 @@
+Apply styles to the main header
+header {
+    background-image: url(''); /* Adjust the path to your image */
+    background-size:cover;
+    margin-top: -100px;/* Ensure the image covers the entire header */
+    background-position:cover; 
+    fill-opacity: 30%;/* Center the image horizontally and vertically */
+    color: #ffffff;
+    padding: 100px 0; /* Add padding to create some space around the content */
+    text-align:center /* Center the text content */
+}
+
+  /* Style the heading and subheading */
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-align: center
+    ;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-align: wraper
+  }
+  
+  /* Style the call-to-action button */
+  .btn-primary {
+    background-color: #FF5722;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #E64A19;
+  }
+  
+  
+  
+  /* Style the album section */
+  .album {
+    padding: 40px 0;
+  }
+  
+  /* Style the product cards */
+  .card {
+    border: none;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card-text {
+    font-size: 1.1rem;
+    margin-top: 10px;
+  }
+  
+  /* Style the "9min read" text */
+  .text-muted {
+    font-size: 0.9rem;
+  }
+  
+  /* Style the category links (if applicable) */
+  .category-link {
+    text-decoration: none;
+    color: #007BFF;
+  }
+  
+  .category-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style the pagination (if applicable) */
+  .pagination {
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Style the footer (if applicable) */
+  footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
