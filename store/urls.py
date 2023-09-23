@@ -1,18 +1,17 @@
-from django.contrib import admin
-from django.urls import path,include
 from django.conf.urls.static import static
-from .import views
-
-from django.urls import path
+from django.contrib import admin
+from django.urls import include, path
 
 from . import views
 
 app_name = 'store'
 
 urlpatterns = [
-    path('', views.all_products, name='all_products'),
-    path('item/<slug:slug>/', views.product_details, name='product_detail'),
-   path('search/<slug:category_slug>/', views.category_list, name='category_list'),
+    path('admin/', admin.site.urls),
+    path('', views.product_all, name='product_all'),
+    path('<slug:slug>/', views.product_details, name='product_detail'),
+    path('shop/<slug:category_slug>/', views.category_list, name='category_list'),
+
 
 
 ]

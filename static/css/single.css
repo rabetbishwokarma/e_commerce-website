@@ -1,0 +1,58 @@
+/* Add this CSS to your styles.css file */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+/* Product styles */
+.product-image {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.product-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-author {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.product-description {
+    margin-top: 10px;
+}
+
+.product-price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Quantity select and button styles */
+#select {
+    width: 60px;
+    padding: 5px;
+}
+
+#add-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#add-button:hover {
+    background-color: #0056b3;
+}
