@@ -35,7 +35,7 @@ class Product(models.Model):
     created_by = models.ForeignKey(User, on_delete=models.CASCADE, related_name='product_creator')
     title = models.CharField(max_length=500)
     author = models.CharField(max_length=255, default='author')
-    description = models.TextField(blank=True)
+    description = models.TextField(max_length=800,blank=True)
     image = models.ImageField(upload_to='images/', default='images/default.jpeg')
     slug = models.SlugField(max_length=255)
     price = models.DecimalField(max_digits=5, decimal_places=2)
