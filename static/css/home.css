@@ -95,3 +95,29 @@ header {
     font-size: 0.9rem;
   }
   
+.custom-box {
+    border: 2px solid #8c4646; /* Border style */
+    padding: 10px; /* Padding inside the box */
+    background-color: #f0f0f0; /* Background color */
+  }
+
+
+  .italic {
+    font-style: italic;
+  }
+/* Add this to your home.css */
+.btn-custom {
+  background-color: #ff6600; /* Custom color */
+  color: #fff; /* Text color */
+}
+
+  /* Before */
+.bg-primary {
+  background-color: #1b5da3; /* Blue color */
+}
+
+/* After */
+.bg-primary {
+  background-color: #04478f; /* Green color */
+}
+
